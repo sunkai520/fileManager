@@ -1,4 +1,5 @@
 # fileManager
+技术栈:vue3.x+spriboot2
 个人文件分类上传管理与下载
 智能文件管理系统的前端代码和后端java代码.
 网站链接:http://sunkaibk.xyz:3000/
