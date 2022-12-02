@@ -50,7 +50,6 @@ public class FilesController {
     @RequestMapping(value = "delFile",method = RequestMethod.POST)
     public Result delFile(@RequestBody Map map){
         Result result = new Result();
-        System.out.println(map.get("filePath").toString()+"filePath");
         File file = new File(map.get("filePath").toString());
         if (file.exists()) {
             Boolean boo = iFilesService.removeById(map.get("id").toString());
